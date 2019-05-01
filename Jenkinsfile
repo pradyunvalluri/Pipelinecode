@@ -13,19 +13,19 @@ pipeline {
     stage('Build') {
       
       steps {
-           sh 'echo "build step"
+           sh 'echo "build step"'
         }
        }
     stage('Test') {
       
       steps {
-           sh 'echo "Test step"
+           sh 'echo "Test step"'
         }
        }
       }
       post {
         success {
-         sh 'echo "build success"
+         sh 'echo "build success"'
         }
       }
     }
